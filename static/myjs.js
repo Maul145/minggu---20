@@ -63,11 +63,8 @@ function get_posts(username) {
                     let html_temp = `<div class="box" id="${post["_id"]}">
                                         <article class="media">
                                             <div class="media-left">
-                                                <a class="image is-64x64" href="/user/${post["username"]
-                        }">
-                                                    <img class="is-rounded" src="/static/${post["profile_pic_real"]
-                        }"
-                                                         alt="Imag">
+                                                <a class="image is-64x64" href="/user/${post["username"]}">
+                                                    <img class="is-rounded" src="/static/${post["profile_pic_real"]}" alt="Image">
                                                 </a>
                                             </div>
                                             <div class="media-content">
